@@ -32,4 +32,5 @@ def part2():
             sim = sim + i*l2.count(i)
     return sim
 
+print(part1())
 print(part2())
