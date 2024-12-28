@@ -5,7 +5,7 @@ class data_block:
 
 
 def parse_input():
-    with open('input.txt', 'r') as file:
+    with open('test_input.txt', 'r') as file:
         for line in file:
             pass
         return line
@@ -83,7 +83,6 @@ def part2():
     for db in res:
         new_res = new_res + [db.id]*db.nums
     
-
     checksum = 0
     for i in range(len(new_res)):
         if new_res[i] != ".":
